@@ -46,15 +46,3 @@ nên memo coi như props đã đổi và vẽ lại toàn bộ BookCard — đú
 - `rejected`: `status = "failed"`, `error = action.payload ?? "Không tải được dữ liệu"`
   (thông báo lỗi tiếng Việt do `rejectWithValue` gửi về).
 
----
-
-## Ghi chú nộp bài
-
-- Bản hoàn thành nằm ở `workspace/BookStore_Buoi10/BookStore_Buoi10_HoanThanh/` — đã làm xong
-  Bài 10.1–10.10 và Bonus 10.11, không còn dòng `TODO BT10` nào trong code.
-- `ALL_IN_ONE_HOAN_THANH.md` trong cùng thư mục: dán từng mục vào Snack theo đúng đường dẫn file.
-- `config.ts` đang để `USE_API = false` (đọc mảng, mặc định để nộp bài). Chỉ đổi thành `true`
-  khi đã chạy json-server (`npx json-server@0.17.4 --watch db.json --port 3000`) để kiểm tra Bài 10.11.
-- Ảnh minh chứng (10.1.png … 10.10.png, 10.11a/b.png) phải chụp trên Snack theo mục 1.4 của file doc
-  (thấy cả khung code lẫn khung Web preview và đồng hồ hệ thống) — không thể chụp thay bằng bản chạy local.
-- Thử thách T1 (chỉ còn hàng) và T2 (sắp xếp theo giá) chưa làm — là phần cộng điểm, làm thêm khi cần.
